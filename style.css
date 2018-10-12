@@ -1,0 +1,166 @@
+
+/* HINT - Uncomment the background color codes to get an idea of design and outline */
+
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar{
+    height: 17vh;
+    width: 100vw;
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+}
+
+.navbar > div{
+    flex-basis: 50%;
+    font-size: 20px;
+}
+
+.navTitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5em;
+    /* background-color: crimson; */
+}
+
+
+.navDetails{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navDetails > div{
+    margin: 0 1em;
+}
+
+
+
+
+
+/* LANDING PAGE */
+.landingPage{
+    height: 90vh;
+    width: 100vw;
+    background-color: #18bc9c;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1em;
+}
+
+.centerDiv{
+    height: auto;
+    width: 50vw;
+    /* background-color: yellow; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.imageHolder{
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
+    background: url('../../Pictures/wallpapers/firewatch_game.0.jpg');
+    background-size: cover;
+}
+
+.welcome{
+    /* background-color: #2c3e50; */
+    margin: 1em 0;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+/* SKILLS  SECTION*/
+.skills{
+    height: auto;
+    width: 100vw;
+}
+
+.skillsHead{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 50px;
+    color: #1a252f; 
+}
+
+.skillsSection{
+    width: 97vw;
+    height: 55vh;
+    margin: 5em 0;
+    padding: 1em 0em;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillsSection > div{
+    background-color: teal;
+    width: 25vw;
+    cursor: pointer;
+}
+
+#html{
+    background: url('./assets/html.png');
+    background-size: cover;
+}
+
+#css{
+    background: url('./assets/css-logo.png');
+    background-size: cover;
+}
+
+#js{
+    background: url('./assets/Javascript_badge.svg.png');
+    background-size: cover;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+footer{
+    margin-top: 7em;
+    height: 50vh;
+    width: 100vw;
+    background-color:  #212529;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+footer > div{
+    width: 35em;
+    padding: 1em 2em;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
