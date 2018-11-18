@@ -26,12 +26,12 @@ html,body{
     justify-content: flex-start;
     align-items: center;
     padding-left: 5em;
-    /* background-color: crimson; */
+    /* background-color: black; */
 }
 
 
 .navDetails{
-    /* background-color: yellow; */
+    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +72,7 @@ html,body{
     height: 15em;
     width: 15em;
     border-radius: 50%;
-    background: url('../../Pictures/wallpapers/firewatch_game.0.jpg');
+    background: url('C:\Users\sony\Pictures\HD Wallpapers 1080p Computer Desktop Wallpapers 2560x1600.jpg');
     background-size: cover;
 }
 
